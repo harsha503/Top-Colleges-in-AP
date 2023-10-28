@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+  .div2 {
+    margin: auto;
+    margin-left: 10%;
+    margin-top: 0%;
+    width: 1100px;
+    height: 350px;
+    color: white;
+    border: 2px solid;
+    background-color: white;
+  }
+
+  img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin-bottom: 3%;
+    margin-left: 60px;
+  }
+
+  .ref a {
+    margin-left: 56px;
+    margin-right: 100px;
+  }
+
+  .topnav {
+    overflow: hidden;
+    margin-left: 0%;
+  }
+
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-left: 3%;
+  }
+
+  .topnav a:hover {
+    background-color: white;
+    color: black;
+  }
+
+  a {
+    color: white;
+  }
+</style>
+
+<body style="background-color: SlateGrey;">
+  <div style="  width: 100%;
+  height: 10vh;
+  border: 2px solid  slategray;background-color:#483D8B;">
+    <img src="http://www.bazaarindicator.com/news/wp-content/uploads/2018/08/Harsha-IPO.jpg"
+      style="float: left;border-radius: 100px;height: 8.7vh;width: 150px;margin-left: 100px;margin-top: 5px;margin-bottom: 4px;">
+    <div
+      style="margin-top: 12px;text-align: center;background-color:white;color: 172D13;position: absolute;margin-left: 400px;border-radius: 100px;border: 2px solid white;height: 6.7vh;">
+      <h1 style="text-align: center;margin-top: 2px;"> &nbsp Top Engineering Colleges in our Andhra Pradesh &nbsp </h1>
+    </div>
+  </div>
+  <div class="topnav">
+    <a href="Home.html" style="margin-left: 27%;">Home</a>
+    <a href="Parameters.html" target="_blank">Parameters</a>
+    <a href="Engineering.html" target="_blank">Explore</a>
+    <a href="contact.html">Contact</a>
+    <a href="About.html">About</a>
+    <a href="login.html">Login</a>
+  </div>
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="https://www.nirfindia.org/images/website_banner.png"
+        style="width:100%;border-radius: 0%;margin-left: 0%;height:50vh">
+
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="https://www.nirfindia.org/images/banner.jpg"
+        style="width:100%;border-radius: 0%;margin-left: 0%;height:50vh">
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="https://www.nirfindia.org/images/banner-2.jpg"
+        style="width:100%;border-radius: 0%;margin-left: 0%;height:50vh">
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+  </div>
+  <div
+    style="margin: auto;border: 2px solid rgb(210, 210, 210);width: 1000px;line-height: 1.5;background-color:rgb(240, 240, 240);height: 380px;">
+    <b style="float: left;margin-top: 30px;margin-left: 30px;line-height: 1.5;">Address :</b>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3825.7603970068917!2d80.69155787490216!3d16.48766572810076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35fb3d5f7810a9%3A0x4a6d6804b71db09!2sPrasad%20V.%20Potluri%20Siddhartha%20Institute%20Of%20Technology!5e0!3m2!1sen!2sin!4v1696072420431!5m2!1sen!2sin"
+      width="550" height="350"
+      style="border:0;float: right;margin-right: 10px;margin-top: 10px;border: 6px solid whitesmoke;box-shadow: 5px 5px 5px rgb(240, 240, 240)"
+      allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <p style="margin-left: 90px;"><br><br>Prasad V Potluri Siddhartha Insitute of Technology<br>Kanuru,Vijayawada,520007
+    </p>
+    <i class='fas fa-envelope-open' style="float: left;margin-left:30px;margin-right:10px;"></i>
+    <p style="margin-right: 10px;margin-left: 10px;margin-top: auto;"> 21501A0503@pvpsit.ac.in</p>
+    <i class='fa fa-phone' style="float: left;margin-left:30px;margin-right: 10px;margin-top: auto;"></i>
+    <p style="margin-left: 30px;margin-top: auto;"> 9676913982<br>(Monday to Friday-9:30 am to 6:00pm)</p>
+
+  </div>
+  <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) { slideIndex = 1 }
+      if (n < 1) { slideIndex = slides.length }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+    }
+  </script>
+</body>
+
+</html>
